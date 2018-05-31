@@ -1,8 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Анна](https://up.htmlacademy.ru/htmlcss/21/user/254209).
-* Наставник: `Михаил Поданев` (https://htmlacademy.ru/profile/mpodanev).
-
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
