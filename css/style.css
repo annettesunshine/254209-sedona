@@ -48,7 +48,7 @@ a {
 .intro-photo {
   width: 1200px;
   height: 510px;
-  background-color: #ffffff;
+  background-color: #5780a8;
   background-image: url("../img/background-index.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -205,6 +205,14 @@ a {
   font-weight: bold;
 }
 
+.modal-search input::-moz-placeholder {
+  color: #000000;
+}
+
+.modal-search input::-webkit-input-placeholder {
+  color: #000000;
+}
+
 input[type="number"] {
   text-align: center;
 }
@@ -255,6 +263,7 @@ input[type="number"] {
   background-image: url("../img/background-hotels.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .filter fieldset {
@@ -285,6 +294,14 @@ input[type="number"] {
 
 
 .filter-range[placeholder] {
+  color: #ffffff;
+}
+
+.filter-range::-moz-placeholder {
+  color: #ffffff;
+}
+
+.filter-range::-webkit-input-placeholder {
   color: #ffffff;
 }
 
@@ -355,6 +372,10 @@ input[type="number"] {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
+}
+
+.item-name a {
+  color: #000000;
 }
 
 .item-name a:hover,
