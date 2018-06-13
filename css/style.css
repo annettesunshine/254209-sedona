@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Regular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+}
+/* margin добавила, чтобы была видна тень. Не забыть убрать! */
+.background-shadow {
+  margin-left: 100px;
+  box-shadow: -5px 0px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.intro-photo {
+  width: 1200px;
+  height: 510px;
+  background-color: #ffffff;
+  background-image: url("../img/background-index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features {
+  background-color: #ffffff;
+}
+
+.features > p:first-of-type {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.features > p:nth-of-type(2) {
+  line-height: 26px;
+  text-align: center;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-block {
+  text-align: center;
+}
+
+.features-block h3 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.features-block.colored {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.features-block.other {
+  background-color: #eeeeee;
+}
+
+.recommendations-list {
+  color:#333333;
+  list-style: none;
+
+  background-color: #ffffff;
+}
+
+.recommendations-item h4 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.recommendations-item p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.search p:first-of-type {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.search p:nth-of-type(2) {
+  line-height: 24px;
+}
+
+.open-button {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #766357;
+  border: none;
+}
+
+.open-button:focus,
+.open-button:hover {
+  background-color: #604e43;
+  box-shadow: 0 10px 20px 0 rgba(0, 1, 1, 0.25)
+}
+
+
+
+.open-button:active {
+  color: #918984;
+
+  background-color: #503e33;
+}
+
+.main-footer {
+  background-color: rgba(249, 251, 246, 0.9);
+}
+
+.footer-tag {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.social-button {
+  background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
+}
+
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.footer-copyright {
+  line-height: 26px;
+}
+
+.modal-search {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.25);
+}
+
+.modal-search input {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.modal-search input:hover {
+  background-color: #ebebeb;
+}
+
+.modal-search input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.modal-search input[placeholder] {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  text-align: center;
+}
+
+.add-button,
+.subtract-button {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.modal-button {
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #669ec0;
+}
+
+.modal-button:active {
+  color: rgba(255, 255, 255, 0.302);
+  background-color: #5496bd;
+}
+
+
+/* Оформление страницы каталога */
+
+.catalog-content {
+  background-color: #ffffff;
+}
+
+.site-navigation-current a,
+.site-navigation-current a:hover,
+.site-navigation-current a:focus,
+.site-navigation-current a:active {
+  color: #766357;
+}
+
+.filter {
+  color: #ffffff;
+
+  background-color: #5c87b0;
+  background-image: url("../img/background-hotels.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter-option {
+  text-align: left;
+}
+
+.filter-input:disabled + label {
+  opacity: 0.5;
+}
+
+.filter-range {
+  background-color: transparent;
+  border: none;
+}
+
+
+.filter-range[placeholder] {
+  color: #ffffff;
+}
+
+.filter-group {
+  border: 2px solid #ffffff;
+}
+
+.results-button {
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.results > b {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.results > span {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-settings {
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sorting-button {
+  color: rgba(0, 0, 0, 0.3);
+
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #81b3d2;
+}
+
+.sorting-button:hover,
+.sorting-button:focus {
+  color: #81b3d2;
+}
+
+.sorting-button:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.current-sorting {
+  color: #81b3d2;
+}
+
+.results-list {
+  list-style: none;
+}
+
+.result-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.result-item:first-of-type {
+  border-top: 1px solid #e5e5e5;
+}
+
+.item-name {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.item-name a:hover,
+.item-name a:focus {
+  color: #81b3d2;
+}
+
+.item-name a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.more-button {
+  font-weight: bold;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.more-button:hover,
+.more-button:focus {
+  background-color: #669ec0;
+}
+
+.more-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.book-button {
+  font-weight: bold;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.book-button:hover,
+.book-button:focus {
+  background-color: #604e43;
+}
+
+.book-button:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.item-ratings > p {
+  color: #666666;
+
+  background-color: #f2f2f2;
+}
