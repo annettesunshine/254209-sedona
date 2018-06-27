@@ -33,6 +33,8 @@ button.addEventListener("click", function(evt) {
 form.addEventListener("submit", function (evt) {
   if (!arrivalDate.value || !departureDate.value || !adult.value || !child.value) {
     evt.preventDefault();
+    popup.classList.remove("modal-error");
+    popup.offsetWidth = popup.offsetWidth;
     popup.classList.add("modal-error");
   } else {
     if (isStorageSupport) {
@@ -47,6 +49,7 @@ window.addEventListener("keydown", function (evt) {
     evt.preventDefault();
     if (popup.classList.contains("modal-show")) {
       popup.classList.remove("modal-show");
+      popup.classList.remove("modal-error");
     }
   }
 });
