@@ -39,7 +39,7 @@ form.addEventListener("submit", function (evt) {
   } else {
     if (isStorageSupport) {
       localStorage.setItem("adult", adult.value);
-      localStorage.setItem ("child", child.number);
+      localStorage.setItem ("child", child.value);
     }
   }
 });
